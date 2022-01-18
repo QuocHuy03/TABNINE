@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="preloading">
+    <div class="load">
+      <span class="loader"></span>
+    </div>
+
+    <!-- // -->
+    <section class="banner">
+      <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1><span>Q</span>uoc <span>H</span>uy</h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="#hero" data-after="Home">Search for code</a></li>
+                <li>
+                  <a href="#services" data-after="Service">Code Privacy</a>
+                </li>
+                <li><a href="#projects" data-after="Projects">Pro</a></li>
+                <li><a href="#about" data-after="About">Pricing</a></li>
+                <li><a href="#contact" data-after="Contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- // -->
+
+      <div class="toggle"></div>
+
+      <!-- // -->
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake" style="font-size: 30px">❅</div>
+        <div class="snowflake" style="font-size: 40px">❆</div>
+        <div class="snowflake" style="font-size: 30px">❆</div>
+        <div class="snowflake" style="font-size: 22px">❅</div>
+        <div class="snowflake" style="font-size: 50px">❆</div>
+        <div class="snowflake" style="font-size: 20px">❅</div>
+        <div class="snowflake" style="font-size: 70px">❆</div>
+        <div class="snowflake" style="font-size: 25px">❆</div>
+        <div class="snowflake" style="font-size: 22px">❆</div>
+        <div class="snowflake" style="font-size: 84px">❆</div>
+        <div class="snowflake" style="font-size: 56px">❆</div>
+        <div class="snowflake" style="font-size: 76px">❆</div>
+        <div class="snowflake" style="font-size: 13px">❆</div>
+        <div class="snowflake" style="font-size: 34px">❆</div>
+        <div class="snowflake" style="font-size: 76px">❆</div>
+        <div class="snowflake" style="font-size: 47px">❆</div>
+        <div class="snowflake" style="font-size: 43px">❆</div>
+        <div class="snowflake" style="font-size: 98px">❆</div>
+        <div class="snowflake" style="font-size: 54px">❆</div>
+        <div class="snowflake" style="font-size: 63px">❆</div>
+        <div class="snowflake" style="font-size: 36px">❆</div>
+        <div class="snowflake" style="font-size: 12px">❆</div>
+        <div class="snowflake" style="font-size: 30px">❆</div>
+      </div>
+
+      <!-- // -->
+
+      <header>
+        <div class="container">
+          <div class="your">
+            <span>Choose your preferred IDE</span>
+            <p>We support all major IDEs. Find yours.</p>
+          </div>
+
+          <!-- // -->
+          <div id="cmm">
+            <div class="find">
+              <input
+                type="text"
+                id="mySearch"
+                onkeyup="myFunction()"
+                placeholder="Find your IDE"
+                title="Type in a category"
+              />
+              <i class="fas fa-search"></i>
+            </div>
+
+            <!-- // -->
+
+            <div class="tong">
+              <ul id="autrinh">
+                <li class="tabnine">
+                  <img src="/img/image.webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for VS Code</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (1).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for IntelliJ</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (2).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Sublime</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (3).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Visual Studio</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (4).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Pycharm</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (5).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for WebStorm</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (6).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Android Studio</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (7).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Go Land</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (8).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Atom</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (9).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Emacs</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (10).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Vim</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (11).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Neovim</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (12).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for PHP Storm</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (13).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for RubyMine</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (14).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Jupyte Notebook</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (15).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for JupyterLab</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (16).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for CLion</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (17).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for App Code</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (18).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Rider</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (19).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for DataGrip</span>
+                  </div>
+                </li>
+
+                <li class="tabnine">
+                  <img src="/img/image (20).webp" width="46px" height="46px" />
+                  <div class="chu">
+                    <span>Get TabNine for Eclipse</span>
+                  </div>
+                </li>
+                <!-- // -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- // -->
+
+          <div class="wrapper">
+            <div class="typing-demo">This is a typing demo...</div>
+          </div>
+
+          <!-- // -->
+
+          <div class="most">
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/angular.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Angular</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/c.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>C</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/cpp.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>C++</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/csharp.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>C#</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/css.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>CSS</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/dart.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Dart</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/go.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Go</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/haskell.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Haskell</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/html.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>HTML</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/java-.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Java</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/javascrip.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Javascript</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/kotlin.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Kotlin</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/matlab.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Matlab</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/nodejs.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>NodeJs</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/objective.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Objective</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/perl.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Perl</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/php.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>PHP</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/python.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Python</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/react.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>React</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/ruby.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Ruby</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/rust.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Rust</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/sass.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Sass</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/scala.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Scala</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/swift.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Swift</span>
+              </div>
+            </div>
+
+            <div class="c">
+              <div class="imgs1">
+                <img src="/img/typescript.png" width="38px" height="38px" />
+              </div>
+              <div class="chus">
+                <span>Typescript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- //phancuoi// -->
+
+          <div class="phancuoi">
+            <nav class="navbar">
+              <div class="inner">
+                <div class="clm">
+                  <h3>Tabnine</h3>
+                  <span>About</span>
+                  <br />
+                  <span>Careers</span>
+                  <br />
+                  <span>Contact US</span>
+                </div>
+
+                <div class="clm">
+                  <h3>Products</h3>
+                  <span>Pro</span>
+                  <br />
+                  <span>Teams</span>
+                  <br />
+                  <span>Pricing</span>
+                </div>
+
+                <div class="clm">
+                  <h3>Discover</h3>
+                  <span>Blog</span>
+                  <br />
+                  <span>Tabnine Academy</span>
+                  <br />
+                  <span>Search for code</span>
+                </div>
+
+                <div class="clm">
+                  <h3>Resources</h3>
+                  <span>FAQ</span>
+                  <br />
+                  <span>Privacy Policy</span>
+                  <br />
+                  <span>Terms of Use</span>
+                  <br />
+                  <span>Student Program</span>
+                </div>
+              </div>
+
+              <!-- // -->
+
+              <div class="termin">
+                <div class="j">
+                  <h3>IDE Integrations</h3>
+                </div>
+                <div class="kkk">
+                  <div class="pro">
+                    <span>VSCode</span>
+                    <br />
+                    <span>IntelliJ</span>
+                    <br />
+                    <span>Pycharm</span>
+                    <br />
+                    <span>Sublime</span>
+                    <br />
+                    <span>Atom</span>
+                  </div>
+
+                  <div class="pro">
+                    <span>Vim</span>
+                    <br />
+                    <span>PhpMine</span>
+                    <br />
+                    <span>RubyMine</span>
+                    <br />
+                    <span>WebStorm</span>
+                    <br />
+                    <span>Eclipse</span>
+                  </div>
+
+                  <div class="pro">
+                    <span>Emacs</span>
+                    <br />
+                    <span>GoLand</span>
+                    <br />
+                    <span>CLion</span>
+                    <br />
+                    <span>Android Studio</span>
+                    <br />
+                    <span>AppCode</span>
+                  </div>
+
+                  <div class="pro">
+                    <span>Rider</span>
+                    <br />
+                    <span>DataGrip</span>
+                    <br />
+                    <span>Jupyter Notebook</span>
+                    <br />
+                    <span>Jupyter Lab</span>
+                    <br />
+                    <span>Neovim</span>
+                    <br />
+                    <span>Visual Studio</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- / -->
+
+              <div class="studio">
+                <div class="icon">
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                  <a href=""><i class="fab fa-github-alt"></i></a>
+                </div>
+
+                <div class="icon1">
+                  <a href="#hero">
+                    <h1><span>Q</span>uoc <span>H</span>uy</h1>
+                  </a>
+                </div>
+              </div>
+
+              <!-- //scroll to top js// -->
+
+              <div class="scroll-btn">
+                <i class="fas fa-arrow-circle-up"></i>
+              </div>
+
+              <!-- // -->
+            </nav>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- /dark-night/ -->
+
+    <script>
+      //<![CDATA[
+      var currentTime = new Date().getHours();
+      if (6 <= currentTime && currentTime < 17) {
+        $("html").removeClass("dark");
+      } else {
+        $("html").addClass("dark");
+      }
+      //]]>
+    </script>
+
+    <!-- dark-night -->
+
+    <script>
+      const toggle = document.querySelector(".toggle");
+      const banner = document.querySelector(".banner");
+
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        banner.classList.toggle("dark");
+      };
+    </script>
+
+    <script src="/main.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://sites.google.com/site/bituotblog/disable-copy.js"
+    ></script>
+    <style>
+      body {
+        -moz-user-select: none !important;
+        -webkit-touch-callout: none !important;
+        -webkit-user-select: none !important;
+        -khtml-user-select: none !important;
+        -moz-user-select: none !important;
+        -ms-user-select: none !important;
+        user-select: none !important;
+      }
+    </style>
+  </body>
+</html>
